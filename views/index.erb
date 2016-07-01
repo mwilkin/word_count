@@ -1,1 +1,13 @@
-<h2>Welcome to My Amazing Word Count Page</h2>
+<h1>Word Count</h1>
+<h2>Provide a word you would like to search for and a sentence you would like to search in.</h2>
+<form action="/word_count" method="post">
+  <div class="form-group">
+    <label for="input_word">Enter a single word to target</label>
+    <input id="input_word" type="text" name="input_word" class="form-control">
+  </div>
+  <div class="form-group">
+    <label for="input_string">Enter a sentence to search</label>
+    <input id="input_string" type="text" name="input_string" class="form-control">
+  </div>
+  <button type="submit" class="btn-success" name="button">Evaluate</button>
+</form>

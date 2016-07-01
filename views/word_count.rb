@@ -1,1 +1,0 @@
-<h1>Word Count</h1>
