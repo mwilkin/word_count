@@ -1,13 +1,15 @@
-<h1>Word Count</h1>
-<h2>Provide a word you would like to search for and a sentence you would like to search in.</h2>
-<form action="/word_count" method="post">
-  <div class="form-group">
-    <label for="input_word">Enter a single word to target</label>
-    <input id="input_word" type="text" name="input_word" class="form-control">
-  </div>
-  <div class="form-group">
-    <label for="input_string">Enter a sentence to search</label>
-    <input id="input_string" type="text" name="input_string" class="form-control">
-  </div>
-  <button type="submit" class="btn-success" name="button">Evaluate</button>
-</form>
+<div class="container">
+  <h1>Word Count</h1>
+  <h2>Provide a word you would like to search for and a sentence you would like to search in.</h2>
+  <form action="/word_count" method="post">
+    <div class="form-group">
+      <label for="word">Enter a single word to target</label>
+      <input id="word" type="text" name="word" class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="string">Enter a sentence to search</label>
+      <input id="string" type="text" name="string" class="form-control">
+    </div>
+    <button type="submit" class="btn-success btn-lg" name="button">Evaluate</button>
+  </form>
+</div>

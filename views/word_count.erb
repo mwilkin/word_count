@@ -1,6 +1,11 @@
-<div class="container">
-  <h1>Word Count Results:</h1>
-    <p>The targeted input was: <=% @input_word %></p>
-    <p>The searched sentence was: <=% @input_string %></p>
-    <p>Number of occurances: <=% @result %></p>
-</div>
+<!DOCTYPE html>
+<html>
+  <body>
+    <div class="container">
+      <h1>Word Count Results:</h1>
+        <p>The targeted input was: "<%= @input_word %>"</p>
+        <p>The searched sentence was: "<%= @input_string %>"</p>
+        <p>Number of occurances: <%= @result %></p>
+    </div>
+  </body>
+</html>
