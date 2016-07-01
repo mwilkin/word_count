@@ -3,6 +3,7 @@ class String
      input_string_array = input_string.downcase().split("")
 
      frequencies = Hash.new(0)
-     input_string_array.each{|input_word| frequency[input_sting] +=1}
+     input_string_array.each{|input_word| frequency[input_string_array] +=1}
      return frequency
+   end
 end
