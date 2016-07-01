@@ -8,8 +8,9 @@ get('/') do
 end
 get('/word_count') do
   @page_title = "word_count"
-  @input_word = params.fetch('') #something in here
-  @input_string = params.fetch('') #something in here
+  @input_word = params.fetch('input_word') #NTS: is this necessary?
+  @input_string = params.fetch('input_string')
+  @result = @input_word.word_count(params.fetch('phrase')
 
 
   erb(:word_count)

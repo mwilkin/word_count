@@ -11,4 +11,11 @@ describe('word_count path', {:type => :feature}) do
     click_button('Evaluate')
     expect(page).to have_content("occurances: 3")
   end
+  it('takes a word and string and determines the number of times the word occurs in the string with no occurances') do
+    visit('/word_count')
+    fill_in('input_word', :with => "dog")
+    fill_in('input_string', with => "My cat likes to sleep all day.")
+    click_button('Evaluate')
+    expect(page).to have_content("occurances: 0")
+  end
 end
