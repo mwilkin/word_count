@@ -22,7 +22,7 @@ _A Ruby web application that takes a word and a string from the user and searche
 
 ## Deployed to Heroku at:
 
-* <https://multicultural-zed-36160.herokuapp.com/>
+* <https://sheltered-sea-76111.herokuapp.com/>
 
 ## Known Bugs
 
