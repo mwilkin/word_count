@@ -11,6 +11,6 @@ post('/word_count') do
   @page_title
   @input_word = params.fetch('word')
   @input_string = params.fetch('string')
-  @result = @input_string.word_count(@input_string)
+  @result = @input_word.word_count(@input_string)
   erb(:word_count)
 end
